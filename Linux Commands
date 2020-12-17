@@ -3,3 +3,6 @@ chown
 umask 
 ps
 find
+#list directories
+ls
+ls -R 
