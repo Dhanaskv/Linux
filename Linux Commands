@@ -5,4 +5,12 @@ ps
 find
 #list directories
 ls
-ls -R 
+ls -R
+#Search for a string of characters in specified file
+grep -i bash /etc/passwd
+grep -n bash /etc/passwd
+grep -c bash /etc/passwd
+grep -l bash *
+grep ^r /etc/passwd 
+grep $r /etc/passwd
+
