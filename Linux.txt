@@ -5,6 +5,12 @@ ls -l ("long listing files")
 ls -lt ("long listing and last modified file order")
 ls -ltrh("last modified files in reverse order and human readable format")
 
+#date command is used to display current date,month,time 
+date
+
+#cal command is used to  display a current month calender
+cal 
+
 #Search for a string of characters in specified file
 grep -i bash /etc/passwd
 grep -n bash /etc/passwd
