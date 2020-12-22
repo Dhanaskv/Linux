@@ -19,3 +19,10 @@ grep -l bash *
 grep ^r /etc/passwd 
 grep $r /etc/passwd
 
+#Who command is used to display currently logged in users,current runlevel of system and last system boot
+
+#who -b ("last system boot")
+#who -r ("current run level")
+#who -d ("print dead process")
+#who -a ("print all information")
+
