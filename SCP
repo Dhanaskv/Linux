@@ -1,0 +1,18 @@
+#!/bin/bash
+#scp is a secure copy protocol
+#scp is used to transfer files from one host to another host in secure way
+#scp runs tcp/ip port 22
+#syntax
+	scp [-options] [source file] remoteuser@remoteipaddress:/home/dhana/
+#SCP Commands
+   
+#scp uses same authentication and security mechanisam of ssh protocol
+
+options:
+      (1) -p - preserves the file timestamp,file permissions and access times.
+      (2) -C - it is compress and increase speed while copying.it will automatially compression the source and decompression at the target..
+      (3) -P - if destination host is different than default port number....needspecify the port number and -P option
+      (4) -v - this option is used to scp command execution and it is really helpful for debugging
+      (5) -r - r option is used to copy a files and directories in recursively
+      
+
