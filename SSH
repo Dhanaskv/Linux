@@ -1,0 +1,54 @@
+#ssh is a seure shell protocol
+#ssh protocol is used to encrypted connection between two hosts
+#ssh runs tcp/ip port 22
+#syntax
+ 
+   ssh username@ip address
+
+two type of authentication is there:
+1.password less authentication
+2.password based authentication
+
+#Using public-private key pair to login into remote server is more secure as compare to passwords
+
+#ssh is more secure than other protocol such as telnet because encryption of data
+
+#three major encryption techniques used by ssh
+1)symmetrical 
+2)asymmetrical
+3)hashing
+
+#asymmetrical method is more secure it generates two different key pairs
+
+#public_key
+A public key is distributed to anyone 
+public key is copied to remote machine then using ssh keys secure connection will be established(Encryption function)
+
+#private_key
+private key kept secret on client machine(Decryption function)
+
+#rsa dsa is a encryption  algoritham
+
+#password less authentication commands
+#Create new public-private key pairs
+   1)ssh-keygen -t rsa
+#2)public key is copied to remote server
+   2)ssh-copy-id RemoteUserName@Ipaddress
+#public key is copied to remote server on authorized_keys file
+
+#After using
+    3)ssh dhana@192.168.1.1 
+#the secure encrypted connection will be established
+
+
+#Disable SSH Password based authentication
+#It is an extra layer security of our server 
+#Edit the /etc/ssh/sshd_config file to change the following options
+  1)passwordAuthentication no
+  2)ChallengeResponseAuthentication no
+  3)UsePAM no
+
+#Then restart the SSH Service
+#sudo systemctl restart ssh
+
+
