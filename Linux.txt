@@ -26,3 +26,10 @@ grep $r /etc/passwd
 #who -d ("print dead process")
 #who -a ("print all information")
 
+# "W" command is used to display currently logged in users and what they are doing
+ "W" command is similar to the uptime command
+
+#Uptime command is used to how long the system has been running and system load average
+
+uptime
+uptime -s ("system start time")
