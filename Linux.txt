@@ -1,3 +1,6 @@
+#print current working directory
+pwd
+
 #list directories
 ls
 ls -R
