@@ -1,0 +1,6 @@
+#Rsync
+#Rsync is used to transfers files and directories to local and remote destinations
+#rsync runs tcp/ip port 873
+#syntax
+  rsync [options] [source] [destination]
+
