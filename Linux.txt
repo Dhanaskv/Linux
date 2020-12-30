@@ -48,5 +48,27 @@ as well as buffers and caches used by the kernal
 
 #free -h ("human readable")
 #free -t
+===============================
 
+# ps command is used to display process information in linux system
 
+# linux is a multitasking and multi processing system
+
+# It reads information from virtual files in /proc file system
+# ps ( current shell process)
+
+#Display all process in BSD format
+
+ps aux (display all process in BSD format)
+
+a=display all users process
+u=user-oriented format...detailed information of process
+x=ps list without controlling terminal...those are mainly process that are started on boot time and running in back ground
+
+#ps -ef (unix format)
+e=display all processes
+f=full format listing
+
+#user defined format
+o="o" option tells user defined format
+ps -efo -pid,comm
