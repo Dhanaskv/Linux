@@ -72,3 +72,28 @@ f=full format listing
 #user defined format
 o="o" option tells user defined format
 ps -efo -pid,comm
+=============================================
+#Process status
+1)running
+2)waiting
+3)stopped
+4)orphaned
+5)zombie
+=============================================
+
+#netstat command is used to monitoring incoming and outgoing connections,as well as routing tables,interface statistis
+
+#netstat -a (listing all listening and non-listening ports)
+
+#netstat -l (list only listening ports)
+
+#netstat -lt (list only tcp ports)
+#netstat -lu
+
+#netstat -s (statistics for all ports)
+#netstat -r (kernal routing information)
+
+#netstat -tuplan
+=================================================
+#iostat command is used to cpu and I/O statistics
+iostat
