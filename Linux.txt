@@ -1,19 +1,19 @@
 #print current working directory
 pwd
-
+=======================
 #list directories
 ls
 ls -R
 ls -l ("long listing files")
 ls -lt ("long listing and last modified file order")
 ls -ltrh("last modified files in reverse order and human readable format")
-
+=======================
 #date command is used to display current date,month,time 
 date
-
+======================
 #cal command is used to  display a current month calender
 cal 
-
+=======================
 #Search for a string of characters in specified file
 grep -i bash /etc/passwd
 grep -n bash /etc/passwd
@@ -21,18 +21,32 @@ grep -c bash /etc/passwd
 grep -l bash *
 grep ^r /etc/passwd 
 grep $r /etc/passwd
-
+========================
 #Who command is used to display currently logged in users,current runlevel of system and last system boot
 
 #who -b ("last system boot")
 #who -r ("current run level")
 #who -d ("print dead process")
 #who -a ("print all information")
-
+==========================
 # "W" command is used to display currently logged in users and what they are doing
  "W" command is similar to the uptime command
-
+========================
 #Uptime command is used to how long the system has been running and system load average
 
 uptime
 uptime -s ("system start time")
+==========================
+# free command is used display current system memory usage.....By default free command displays free and used memory of swap and pysical memory in the system
+as well as buffers and caches used by the kernal
+
+#free -b
+
+#free -m
+
+#free -g
+
+#free -h ("human readable")
+#free -t
+
+
