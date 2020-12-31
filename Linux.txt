@@ -97,3 +97,15 @@ ps -efo -pid,comm
 =================================================
 #iostat command is used to cpu and I/O statistics
 iostat
+================================================
+#Top command is used to show the linux processes
+#It provides a dynamic real time view of running system
+
+#Top command lists which process are currently managed by kernal
+
+#top -n 10
+
+#top -u username
+
+
+
