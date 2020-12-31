@@ -113,3 +113,20 @@ iostat
 
 
 
+#kill [signal] [PID]
+==================================================
+#Find ip address
+
+#kill [signal] [PID]
+==================================================
+#Find ip address
+
+#kill [signal] [PID]
+==================================================
+#Find ip address
+
+#ifconfig -a
+
+#hostname -I
+
+#ip addr
