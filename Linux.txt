@@ -106,6 +106,10 @@ iostat
 #top -n 10
 
 #top -u username
+==================================================
+#kill command is used to terminate the process manually
+#kill command sends signal to process then terminate the process
+#kill -l (list available signals)
 
 
 
