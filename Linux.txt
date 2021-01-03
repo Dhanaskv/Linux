@@ -1,3 +1,13 @@
+#Find os name and version
+lsb_release -a
+cat /etc/os-release
+cat /etc/issue
+hostnamectl
+cat /etc/*release
+======================================
+#Find kernal version
+uname -r
+=====================================
 #print current working directory
 pwd
 =======================
