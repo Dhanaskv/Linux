@@ -160,6 +160,19 @@ cat file.txt file1.txt > file2.txt ("merge the content of multiple files")
 tac filename ("Display content in reverse order")
 
 cat -E filename (Highlight the end of the line")
+========================================================================
+
+#cd command is used to change the current working directory
+
+(.) represents the current working directory
+(..) represents the one level up or parent diretory)
+
+cd - (go to the previous directory)
+
+cd ../ ../ (move two directory up )
+
+cd or cd~ (move home diretory)
+
 
 
 
