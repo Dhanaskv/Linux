@@ -140,3 +140,27 @@ iostat
 #hostname -I
 
 #ip addr
+=====================================================
+#Cat command is used to view the content of the file,create files,concatenate files in linux system
+
+cat filename ("View the content of file")
+
+cat filename ("view multiple files")
+
+cat -n filename ("view the contents preceding with line numbers")
+
+cat > file.txt ("create the file")
+
+cat file.txt > file1.txt ("copy the contents one file to another")
+
+cat file.txt >> file1.txt ("append the one file content to another file")
+
+cat file.txt file1.txt > file2.txt ("merge the content of multiple files")
+
+tac filename ("Display content in reverse order")
+
+cat -E filename (Highlight the end of the line")
+
+
+
+
