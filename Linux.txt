@@ -181,6 +181,12 @@ by default it display the number of block used ,numbers of blocks available and 
 
 df -h (Print human readable format)
 df --total -h (print total amount of disk usage in human readable format)
+=================================================================
+#du command in linux
+
+du command is used to display disk usage in files and directories
+du -sh (file or directory) (s=summary ,h=human reable format)
+
 
 
 
