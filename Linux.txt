@@ -176,7 +176,7 @@ cd or cd~ (move home diretory)
 =================================================================
 #df command in linux
 
-df command is used to display disk usage in filesystem...
+df command is used to display disk space used in filesystem...
 by default it display the number of block used ,numbers of blocks available and the directory where the file system is mounted
 
 df -h (Print human readable format)
