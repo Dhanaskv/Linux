@@ -11,8 +11,9 @@ uname -r
 #print current working directory
 pwd
 =======================
-#list directories
+#ls command used to list files and directories 
 ls
+ls -a
 ls -R
 ls -l ("long listing files")
 ls -lt ("long listing and last modified file order")
@@ -172,6 +173,15 @@ cd - (go to the previous directory)
 cd ../ ../ (move two directory up )
 
 cd or cd~ (move home diretory)
+=================================================================
+#df command in linux
+
+df command is used to display disk usage in filesystem...
+by default it display the number of block used ,numbers of blocks available and the directory where the file system is mounted
+
+df -h (Print human readable format)
+df --total -h (print total amount of disk usage in human readable format)
+
 
 
 
