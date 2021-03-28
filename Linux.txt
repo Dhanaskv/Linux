@@ -186,7 +186,26 @@ df --total -h (print total amount of disk usage in human readable format)
 
 du command is used to display disk usage in files and directories
 du -sh (file or directory) (s=summary ,h=human reable format)
+===============================================================
+Tar Command is used to create compressed archive file or extract the archive file 
 
+SYNTAX:
+
+tar [options] [ archive file name] [file name(s)] 
+
+c-create archive file
+
+v-verbose =show the files being processed by the tar command
+
+f-specified file name
+
+t-list the content of the archive file 
+
+r-update the archive file
+
+z-compress the archive file using gzip
+
+j-compress the archive file using bzip2
 
 
 
