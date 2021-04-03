@@ -1,0 +1,29 @@
+#Update system repository index
+
+sudo apt update
+
+#upgrade the already Installed packages
+
+sudo apt upgrade
+
+#Then
+
+#Install apache2 in ubuntu 
+
+sudo apt install apache2 -y
+
+#Start apache2 web server
+
+sudo systemctl start apache2
+
+#enbale the web server
+
+sudo systemctl enable apache2
+
+#Check the status if web server running or not 
+
+sudo systemctl status apache2
+
+#Check If port 80 open ?
+
+sudo netstat -tuplan | grep ":80"
