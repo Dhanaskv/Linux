@@ -49,4 +49,19 @@ ls -n (Display UID and GID)
 r-reverse order )
 =================================================================
 
+cd command is used to change the current working directory in linux
 
+(.) single dot represents the current working directory
+
+(..) double dot represents the parent directory
+
+cd ../ (one level up)
+cd ../../ (two level up)
+
+-->navigate to the previous directory
+
+cd -
+
+-->navigate to the home directory
+
+cd ~
