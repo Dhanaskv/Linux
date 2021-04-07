@@ -18,4 +18,9 @@ cat /etc/os-release
 4)hostnamectl
 =================================================================
 
+#Find Kernal version In linux Command line
 
+1)uname -r(kernal_release)
+
+2)uname -s(kernal name)
+==================================================================
