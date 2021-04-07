@@ -41,6 +41,9 @@ ls -lh (long listing in human readable format)
 
 ls -ltrh
 
+ls -n (Display UID and GID)
+
+
 (t-latest modification file
 
 r-reverse order )
