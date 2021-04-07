@@ -24,3 +24,26 @@ cat /etc/os-release
 
 2)uname -s(kernal name)
 ==================================================================
+
+#ls command in linux
+
+ls command is used to display  the files and directories
+
+by default current working directory
+
+ls -l (long listing format)
+
+ls -a (list hidden files)
+
+ls -R (list Sub directories)
+
+ls -lh (long listing in human readable format)
+
+ls -ltrh
+
+(t-latest modification file
+
+r-reverse order )
+=================================================================
+
+
