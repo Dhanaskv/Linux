@@ -82,4 +82,17 @@ h=human readable format
 
 du -sh (file or directory name)
 ==================================================================
+mkdir command is used to create a directory in linux system
 
+[ mkdir newdirectory ]
+
+create multiple directories:
+
+mkdir {dir1,dir2,dir3}
+
+
+create parent directories
+
+mkdir -p Direc1/direc2
+
+===================================================================
