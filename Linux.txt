@@ -96,3 +96,10 @@ create parent directories
 mkdir -p Direc1/direc2
 
 ===================================================================
+#rmdir command is used to remove empty directories from the file system in linux
+
+rmdir dir1
+
+rmdir -p d1/d2 (remove non-empty directories)
+
+===================================================================
