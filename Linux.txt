@@ -103,3 +103,9 @@ rmdir dir1
 rmdir -p d1/d2 (remove non-empty directories)
 
 ===================================================================
+#Wget command is used to dowload files from internet 
+
+it retrieves files from using http,https and ftp protocols
+
+
+
