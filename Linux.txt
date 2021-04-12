@@ -107,5 +107,22 @@ rmdir -p d1/d2 (remove non-empty directories)
 
 it retrieves files from using http,https and ftp protocols
 
+syntax:
+
+wget [options] url..
+
+#install wget package in terminal
+sudo apt install wget
+
+#Download file in specific name
+wget -O [different name] [download url]
+
+#Download files in specific directory 
+wget -P [wanted_directory] [URL]
+
+#Continue Download After Interruption
+wget -c url
+============================================================
+
 
 
