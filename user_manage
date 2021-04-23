@@ -1,0 +1,45 @@
+#linux is a multi-user system
+
+syntax:
+
+(( useradd [options] username  ))
+
+adduser in linux 
+1. sudo useradd username
+(most of the distributions doesn't create home directory )
+
+so (( sudo useradd -m username )) ----> create home directory
+when create a user then set passwd for that user
+sudo passwd username
+
+
+2.create user in specific userid 
+
+sudo useradd -u 1500 username
+
+3.create a user with specific groupname or GID (must already exist in groupID)
+
+sudo useradd -g GID username
+
+when add user in linux then automatically changes happen in some files
+such as /etc/passwd,/etc/shadow,/etc/group,/etc/gshadow.
+
+==========================================================
+#Remove a user in linux
+
+syntax:
+
+userdel [options] username 
+
+most of the time userdel doesn't delete users home and mail spools directory
+
+userdel -r username
+
+===========================================================
+#usermod command is used to modify the user accounts
+
+usermod -a -G sudo username ( a-append ,G-groups)
+===================================================
+
+
+
