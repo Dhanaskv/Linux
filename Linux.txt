@@ -156,7 +156,20 @@ chmod u=rwx,g=rwx,o=rwx text.txt
 
 2.numeric method
 
- 
+0=no permission
+1= (x) permission
+2= (w) permission
+3=(wx) permission
+4= (r) permission
+5= (r-x) permission
+6= (rw-) permission
+7= (rwx) permission 
 
+chmod -R 644 dirname (Recursively change directory )
+====================================
+Chown command is used to change the ownership of file and directories
 
+sudo chown user:group file
 
+sudo chown -R user:group dirname
+======================================================
