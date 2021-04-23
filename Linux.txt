@@ -123,6 +123,40 @@ wget -P [wanted_directory] [URL]
 #Continue Download After Interruption
 wget -c url
 ============================================================
+Environment variable:
+
+variable:
+variable is a location for storing values,number and any other data
+
+=============================================================
+File Management:
+
+All data is organized into files
+All files are organized into directories
+All directories are organized into tree structure called file system
+Root directory is base of the linux operating system
+
+(-) represents the regular files
+(d) represents the directory
+.profile is a hidden files mainly in system configuration
+
+========================================================
+
+chmod command is used to change access permissions of files and directories
+
+sudo chmod 700 text.txt
+
+There are two types of mode is there 
+1.symbolic mode 
+2.numeric mode
+
+1.symbolic method(text)
+
+chmod u=rwx,g=rwx,o=rwx text.txt
+
+2.numeric method
+
+ 
 
 
 
