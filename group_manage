@@ -1,0 +1,16 @@
+#group management
+
+there are two types of groups in linux operating system.
+
+1)primary group
+2)secondary group
+
+primary group is group that is automatically generated while creating  a user 
+
+secondary group is created by user 
+
+groupadd groupname
+
+groupdel groupname
+
+
