@@ -1,0 +1,51 @@
+#package management is a method of installing and maintaining software on the linux system
+
+#package manager is a tool that allow users to install,remove,upgrade and maintain softwares in linux system
+
+#APT commands in linux
+
+apt is a command line tool for installing,updating removing in debian based linux distributions
+
+sudo apt update
+sudo apt upgrade
+
+sudo apt install package_name
+sudo apt remove package_name
+sudo apt purge package_name
+
+sudo apt autoremove (remove unused packages)
+
+already installed packages:
+
+sudo apt list --installed
+
+searching packages:
+sudo apt search package_name
+
+package_information:
+sudo apt show package_name
+=======================================================
+
+RPM Commands in linux
+
+RPM is redhat based package management system 
+all installed packages list in terminal :
+
+rpm -qa
+
+Before installing an RPM package, you must first download the package on your system using a browser or command-line tools like curl or wget
+
+remove (erase) an RPM package 
+rpm -e package_name
+=========================================================
+
+yum is a package management tool in RPM based linux system
+
+it is used to install,remove and maintain software packages on systems
+
+1.yum install package_name
+2.yum remove package_name (remove packages)
+3.yum list installed (already installed packages)
+4.yum search package_name
+
+
