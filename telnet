@@ -1,0 +1,6 @@
+#telnet is used to create a remote connection with server
+
+it is used to administrate remote server
+
+it is not a secure protocol because it transfers data in plain text format
+telnet runs on port 23
