@@ -1,4 +1,4 @@
-#ssh is a seure shell protocol
+#ssh is a seure shell protocol.
 #ssh protocol is used to encrypted connection between two hosts
 #ssh runs tcp/ip port 22
 #syntax
@@ -6,7 +6,7 @@
    ssh username@ip address
 
 two type of authentication is there:
-1.password less authentication
+1.key based authentication
 2.password based authentication
 
 #Using public-private key pair to login into remote server is more secure as compare to passwords
