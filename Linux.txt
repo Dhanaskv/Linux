@@ -172,4 +172,45 @@ Chown command is used to change the ownership of file and directories
 sudo chown user:group file
 
 sudo chown -R user:group dirname
-======================================================
+=====================================================
+
+#Tar command in linux
+
+tar command is used to create a compressed archive file and also extract the archive  file in linux system
+
+tar [options] archive file [file or directory to be archived ]
+
+-c = create the archive 
+-v =verbose information
+-f =create archive in given filename
+-r =update or add the existing archive file
+-j =create gzip compressed archive
+-z =create bzip compressed archive
+-t =display or lists in archive file
+-W =verify the archive file
+==============================================================
+#Ps command is used to show linux processes along with process ID
+
+(-) is used in unix 
+without (-) is called BSD
+(--) is used to GNU
+
+BSD Form:
+
+ps aux
+
+a-option tells processes of all users
+u-user oriented format
+x-list processes without controling terminal
+
+unix form:
+
+ps -ef 
+
+e-option instructs ps to display all processes
+
+f-option stands for full formatting listing
+
+ps -efo (o-option display specified column)
+
+====================================================
