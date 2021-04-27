@@ -1,0 +1,7 @@
+#LVM is a logical volume manager
+#lvm is used on linux to manage hard drives and other storage drives
+#lvm is very flexible for disk space management
+==============================
+# physical volume
+
+physical volume is a storage device or patition 
