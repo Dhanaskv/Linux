@@ -214,3 +214,41 @@ f-option stands for full formatting listing
 ps -efo (o-option display specified column)
 
 ====================================================
+Top command is used to show the linux processes and it provides a dynamic real-time view of running system
+====================================================
+#Grep command
+
+Grep command is used to search a string of characters in specified file.
+
+grep is a case sensitive
+syntax:
+
+grep [options] search pattern file(s) 
+
+options:
+
+1)grep root /etc/passwd  (search in single files)
+
+2)grep root /etc/passwd /etc/group
+
+3)grep root * (Search all files in directory) 
+
+4) grep -w root * (search and print whole words)
+
+5)grep -i root * (Ignore case sensitive instead of printing lower case only the terminal prints lower case and upper case only )
+
+6)grep -r linux * (search all sub-directories )
+
+7)grep -v linux file.txt (inverse grep search)
+
+8) grep -x word * (search exact matchs for string of characters)
+
+9) grep -c root /etc/passwd (display the  count of number of matches )
+
+10) grep -n root /etc/passwd (display matched lines with line numbers)
+
+11) grep ^root /etc/passwd
+
+12)grep root$ /etc/passwd 
+================================================================
+ 
