@@ -1,0 +1,7 @@
+# what does "/","./","../"  represent while giving path?
+
+/ --> represents root directory
+
+./ --> represents home directory 
+
+../ --> represents parent directory 
