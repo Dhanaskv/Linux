@@ -20,11 +20,11 @@ two type of authentication is there:
 
 #asymmetrical method is more secure it generates two different key pairs
 
-#public_key
+#public_key (id_rsa.pub)
 A public key is distributed to anyone 
 public key is copied to remote machine then using ssh keys secure connection will be established(Encryption function)
 
-#private_key
+#private_key(id_rsa)
 private key kept secret on client machine(Decryption function)
 
 #rsa dsa is a encryption  algoritham

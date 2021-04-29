@@ -251,4 +251,42 @@ options:
 
 12)grep root$ /etc/passwd 
 ================================================================
- 
+# find command
+
+find command is used to search files and directories based on conditions 
+
+find command can be used variety of conditions by permissions,file type,users,groups,file size,date.
+
+=====
+find files using names :
+
+1)find files using name:
+find /etc -name apache2
+
+2)find directories using name
+find / -type d -name git
+
+3) find files ignore case sensitive
+
+find . -type f -iname apache2
+
+======
+
+Find files based on user:
+
+1)find files user of root
+find . -user root  
+
+2)find / -group dhana
+
+3)find / -user dhana -iname "*.txt"
+
+=====
+
+find files and directories based on size
+
+1)find / -size +1G
+
+2)find / -size +100M -size -200M
+
+
