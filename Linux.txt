@@ -291,3 +291,14 @@ find files and directories based on size
 =====================================================
 pwd -print current working directory
 ==================================================
+
+Free command in Linux
+
+free command is used to display system memory usage
+free command provides physical and swap memory information as well as free and used memory
+
+free -h (human readable)
+
+free -m (display in mega bytes)
+
+
