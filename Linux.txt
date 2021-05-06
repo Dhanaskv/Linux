@@ -288,5 +288,6 @@ find files and directories based on size
 1)find / -size +1G
 
 2)find / -size +100M -size -200M
-
-
+=====================================================
+pwd -print current working directory
+==================================================
