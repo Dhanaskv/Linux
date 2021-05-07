@@ -301,4 +301,20 @@ free -h (human readable)
 
 free -m (display in mega bytes)
 
+========================================================
+
+# rm command in linux 
+
+rm command is used to remove files and directories 
+
+rm -f filename (remove write protected file without prompt )
+
+rm -d dirname (remove empty directories)
+
+rm -r dirname (recursively remove non-empty directories)
+
+rm -rf dirname (remove write protected file within a directory and it is very dangerous command)
+
+
+
 
