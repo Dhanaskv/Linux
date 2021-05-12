@@ -189,29 +189,49 @@ tar [options] archive file [file or directory to be archived ]
 -t =display or lists in archive file
 -W =verify the archive file
 ==============================================================
-#Ps command is used to show linux processes along with process ID
+#Ps command is used to show linux processes 
+=====
+# View all running processes using either option :
 
-(-) is used in unix 
-without (-) is called BSD
-(--) is used to GNU
+ps -A
 
-BSD Form:
+ps -e
 
-ps aux
-
-a-option tells processes of all users
-u-user oriented format
-x-list processes without controling terminal
-
-unix form:
-
-ps -ef 
+ps -ef
 
 e-option instructs ps to display all processes
 
 f-option stands for full formatting listing
 
+
 ps -efo (o-option display specified column)
+
+ps -efo pid,comm
+
+======
+
+
+(-) is used in unix 
+without (-) is called BSD
+(--) is used to GNU
+============
+BSD Form:
+
+ps auxf
+
+a--> option tells processes of all users
+u--> user oriented format and detailed information about the processes
+x--> list processes without controling terminal
+f--> f option tells display tree view of parent to child processes
+
+#Sort the process output based on cpu usage or memory usage
+
+ps aux --sort=-%mem 
+ps aux --sort=-%cpu
+
+#list the processes in specified user
+
+ps -U root
 
 ====================================================
 Top command is used to show the linux processes and it provides a dynamic real-time view of running system
@@ -328,6 +348,7 @@ netstat -at --> list only tcp port connections
 netstat -au --> list only udp port connections
 
 netstat -l --> list only listening ports.
+================================================
 
 
 
