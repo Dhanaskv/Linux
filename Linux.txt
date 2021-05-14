@@ -219,7 +219,7 @@ BSD Form:
 
 ps auxf
 
-a--> option tells processes of all users
+a--> option tells processes of all users.
 u--> user oriented format and detailed information about the processes
 x--> list processes without controling terminal
 f--> f option tells display tree view of parent to child processes
