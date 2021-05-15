@@ -125,6 +125,16 @@ wget -c url
 ============================================================
 Environment variable:
 
+#List all environment variables :
+
+printenv,env (print only environment variables )
+
+#List all environment variables and Shell variables :
+
+set
+
+
+
 variable:
 variable is a location for storing values,number and any other data
 
@@ -232,9 +242,6 @@ ps aux --sort=-%cpu
 #list the processes in specified user
 
 ps -U root
-
-====================================================
-Top command is used to show the linux processes and it provides a dynamic real-time view of running system
 ====================================================
 #Grep command
 
@@ -329,6 +336,8 @@ rm command is used to remove files and directories
 
 rm -f filename (remove write protected file without prompt )
 
+   f --> forcefully removed 
+
 rm -d dirname (remove empty directories)
 
 rm -r dirname (recursively remove non-empty directories)
@@ -338,7 +347,7 @@ rm -rf dirname (remove write protected file within a directory and it is very da
 
 #netstat command in linux
 
-netstat command is used to monitoring both incoming and outgoing connections,network statistics and routing tables...
+netstat command is used to monitoring both incoming and outgoing connections,check port open or not ...
 
 (-a) --> list all listening and non-listening ports of tcp and udp connections
 
@@ -387,5 +396,11 @@ pkill -15 firefox
 killall -15 firefox
 ========================================================
 
+#Top command in linux
 
+top command is used to show the linux process 
+It provides a dynamic real time view of running system 
+
+top
+======================================================= 
 
