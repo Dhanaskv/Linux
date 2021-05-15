@@ -350,7 +350,29 @@ netstat -au --> list only udp port connections
 netstat -l --> list only listening ports.
 ================================================
 
+# kill command in linux
 
+kill command is used to terminate the processes in linux system
+
+1) To list all available signals 
+
+kill -l
+
+2)kill command send signal to specified processes 
+
+kill -9 1922 -----> process id
+===========================
+#pkill command is used to kill a process based on process name
+
+
+pkill -15 firefox
+
+===========================
+
+#killall command is used to kill more than one process runs with that name, all of them will be killed.
+
+killall -15 firefox
+========================================================
 
 
 
