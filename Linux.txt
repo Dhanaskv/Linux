@@ -348,6 +348,19 @@ netstat -at --> list only tcp port connections
 netstat -au --> list only udp port connections
 
 netstat -l --> list only listening ports.
+
+netstat -lt --> list tcp listening ports
+
+netstat -lu --> list udp listening ports
+
+netstat -s --> statistics for all ports
+
+netstat -p --> display pid/program names
+
+netstat -tuplan | grep (port or service name )
+
+ n --> n means numerical form display ip address
+ 
 ================================================
 
 # kill command in linux
