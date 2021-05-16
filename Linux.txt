@@ -403,4 +403,17 @@ It provides a dynamic real time view of running system
 
 top
 ======================================================= 
+# wc command
+
+---> wc stands for word count
+---> wc command is used to counting purpose 
+--->it is used to count number of lines,words and characters in specified file
+
+---> wc file name 
+
+---> wc -l filename ( count number of lines  )
+
+---> wc -w filename (count number words )
+
+---> wc -m filename (count number of characters)
 
