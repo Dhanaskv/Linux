@@ -417,3 +417,19 @@ top
 
 ---> wc -m filename (count number of characters)
 
+=======================================================
+#Change Hostname In linux
+
+A hostname is a label that identifies a device on a network. You shouldn’t have two or more machines with the same hostname, on the same network
+
+#Displaying current hostname in command line
+
+---> hostnamectl (or) hostname
+
+#Change hostname 
+
+---> sudo hostnamectl set-hostname ubuntu
+
+ "ubuntu" is a  new hostname
+
+
