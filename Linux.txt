@@ -431,5 +431,25 @@ A hostname is a label that identifies a device on a network. You shouldn’t hav
 ---> sudo hostnamectl set-hostname ubuntu
 
  "ubuntu" is a  new hostname
+===========================================================
+#cat command in linux
 
+cat command is used to create a files,view the content of the files and concatenate the files in linux system
 
+syntax:
+
+cat [option] filename
+
+1.cat filename ---> Display the content of the file
+
+2. cat > file.txt ---> create a file 
+awaits input from user,type desired text and press Ctrl+D key to exit.
+the text will be written in speciifed file
+
+3.cat -n /etc/passwd ---> display line numbers in file
+
+4.cat file.txt > file1.txt ---> using redirection output operator existing content of the file1.txt will be overwritten by contents of file.txt
+
+5.cat file >> file2 ---> file content append to the file2
+
+===============================================================
