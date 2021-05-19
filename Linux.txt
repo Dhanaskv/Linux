@@ -453,3 +453,20 @@ the text will be written in speciifed file
 5.cat file >> file2 ---> file content append to the file2
 
 ===============================================================
+#head  command in linux
+
+head command is used to display first 10 lines by default in specified file
+
+syntax :
+
+head [options] file
+
+1.----> head file.txt (by defult it display first 10 lines)
+
+2.---->head -n 4 file.txt (display only specified number of lines)
+
+3.---->head -c 5 file.txt (display specific number of bytes)
+
+==================================================================
+
+
