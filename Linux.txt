@@ -468,5 +468,18 @@ head [options] file
 3.---->head -c 5 file.txt (display specific number of bytes)
 
 ==================================================================
+nmap command in linux
+
+nmap is a free and open-source command line tool for network exploration,security auditing and scan for open ports.
+
+1.nmap command to scan for open ports
+
+nmap www.amazon.com
+
+2.namp  scan multiple hosts
+
+nmap host1 host2
+
+
 
 
