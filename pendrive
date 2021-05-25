@@ -1,0 +1,28 @@
+# Find the name of the device in the Terminal
+
+ sudo fdisk -l
+
+# Wipe the filesystem from your flash drive
+
+sudo dd if=/dev/zero of=/dev/sdb bs=4k && sync  
+
+# Create the new partition using the command line
+
+sudo fdisk /dev/sdb
+
+Then press letter o to create a new empty DOS partition table
+
+# Make a new partition
+
+Press letter n to add a new partition. You will be prompted for the size of the partition. Making a primary partition when prompted, if you are not sure.
+
+Then press letter w to write table to disk and exit.
+
+
+# Format the USB drive with FAT
+
+sudo mkfs.vfat /dev/sdb1
+
+# Eject the device
+
+ sudo eject /dev/sdb
