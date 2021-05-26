@@ -1,4 +1,4 @@
-#Update system repository index
+#update system repository index
 
 sudo apt update
 
