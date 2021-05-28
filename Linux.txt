@@ -480,6 +480,19 @@ nmap www.amazon.com
 
 nmap host1 host2
 
+==================================================================
+# Ping Command 
+
+
+ping command is used to check network connectivity of localhost and server 
+
+ping command send ICMP echo requests to specified destination server and if server is active then get a ICMP echo reply 
+
+syntax:
+
+ping [option] (Domain or IP address)
+
+ping www.google.com
 
 
 
