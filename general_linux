@@ -1,3 +1,10 @@
+Linux is a free and open source operating system. 
+Open source - open source means the source is code is freely available. anyone can able to see, modify and redistribute it
+Kernal is the core of the linux operating system. kernal manages the system resources and communicates with the system hardware
+
+
+
+
 # what does "/","./","../"  represent while giving path?
 
 / --> represents root directory
