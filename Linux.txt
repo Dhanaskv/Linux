@@ -3,6 +3,8 @@
 Linux is a kernal, the core-component of the operating system
 Popular Linux Distributions are Debian,Ubuntu,Redhat,Fedora,Kali linux,Linux Mint
 
+How to find the linux distribution in the command line :
+
 1)lsb_release -a
 
 If you get “command not found: lsb_release” you can try to identify the Linux version using some of the other methods below
