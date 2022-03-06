@@ -27,6 +27,8 @@ cat /etc/os-release
 1)uname -r(kernal_release)
 
 2)uname -s(kernal name)
+
+3)cat /proc/version 
 ==================================================================
 
 #ls command in linux
