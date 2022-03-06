@@ -18,6 +18,8 @@ cat /etc/os-release
 3)cat /etc/issue
 
 4)hostnamectl
+
+5)cat /proc/version
 =================================================================
 
 #Find Kernal version In linux Command line
