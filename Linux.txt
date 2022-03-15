@@ -1,4 +1,4 @@
-#Find Linux Distribution_Name & Version  In linux
+##Find Linux Distribution_Name & Version  In linux
 
 Linux is a kernal, the core-component of the operating system
 Popular Linux Distributions are Debian,Ubuntu,Redhat,Fedora,Kali linux,Linux Mint
