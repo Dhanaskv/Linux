@@ -532,6 +532,19 @@ It is used to query for specific DNS records
  
  5)get any records in Domain
  nslookup -type=any www.google.com
+ ======================================================
+ How to find private IP address in the linux CLI
+ 
+ 1) hostname -I
+ 2)ifconfig -a 
+ 3)ip addr
+ 
+ Find public IP address in CLI
+ 1)curl ifconfig.me
+ =====================================================
+ 
+ 
+ 
  
 
 
